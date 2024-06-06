@@ -11,7 +11,7 @@ function Button(){
     // }
 
     return(
-    <button /* style={styles} */ className="btn btn-primary" >prova</button>
+    <button /* style={styles} */ className="btn btn-primary" >Contatta</button>
 );
 }
 
