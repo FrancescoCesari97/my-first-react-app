@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function ArtistFreedus(props){
 
     return(
@@ -10,6 +12,13 @@ function ArtistFreedus(props){
     );
 
 };
+ArtistFreedus.propTypes = {
+    name: PropTypes.string,
+    description: PropTypes.string,
+    age: PropTypes.number
+}
+
+
 
 function ArtistSkol(props){
 
@@ -23,6 +32,13 @@ function ArtistSkol(props){
     );
 
 };
+ArtistSkol.propTypes = {
+    name: PropTypes.string,
+    description: PropTypes.string,
+    age: PropTypes.number
+}
+
+
 
 function ArtistExplicit(props){
 
@@ -36,6 +52,11 @@ function ArtistExplicit(props){
     );
 
 };
+ArtistExplicit.propTypes = {
+    name: PropTypes.string,
+    description: PropTypes.string,
+    age: PropTypes.number
+}
 
  
  export{ArtistFreedus, ArtistSkol, ArtistExplicit};
