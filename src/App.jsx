@@ -2,7 +2,7 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Jumbotroon from './Jumbotroon.jsx'
-import Card from './Card.jsx'
+import Cards from './Card.jsx'
 
 function App() {
  
@@ -12,7 +12,7 @@ function App() {
     <Header></Header>
     <div className="container">
     <Jumbotroon></Jumbotroon>
-    <Card></Card>
+    <Cards></Cards>
 
     </div>
     <Footer></Footer>
